@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письмо Насте от Деда Мороза | Santa's Letter to Nastya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="snowflakes" aria-hidden="true"></div>
+    
+    <div class="container">
+        <header>
+            <img src="foto-DM1.png" alt="Дед Мороз" class="santa-photo">
+            <h1><i class="fas fa-star"></i> Письмо от Деда Мороза <i class="fas fa-star"></i></h1>
+            <h2><i class="fas fa-music"></i> Для Насти <i class="fas fa-music"></i></h2>
+        </header>
+        
+        <div class="letter-container">
+            <div class="letter-border">
+                <div class="letter-content">
+                    <div class="letter-text">
+                        <p class="greeting">Здравствуй, Настя!</p>
+                        
+                        <p>Ты большая молодец, что начала хорошо учиться, продолжай меня радовать и в Новом году! Продолжай учиться играть на гитаре, наверное из тебя получиться знаменитый гитарист! Однажды ты мне запишешь и отправишь свою игру на гитаре и я буду слушать и восхищаться!</p>
+                        
+                        <p>Жаль что моих волшебных сил не хватает остановить войну, но думаю что она когда-нибудь закончится, мне тоже горько смотреть на это безобразие.</p>
+                        
+                        <p>Твои подарки будут ждать тебя на Wildberries наверное числа 24-го декабря, это как мои помощники успеют, ведь подарков очень много приходится собирать.</p>
+                        
+                        <p>Желаю тебе в Новом году не болеть, достичь больших успехов в учебе, не унывать, радоваться чаще и радовать всех!</p>
+                        
+                        <p class="signature">С Наступающим,<br>Дед Мороз!</p>
+                        
+                        <div class="date">
+                            <i class="fas fa-snowflake"></i> Декабрь 2024 <i class="fas fa-snowflake"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="musicBtn" class="btn">
+                <i class="fas fa-music"></i> Включить музыку
+            </button>
+            <button id="snowBtn" class="btn">
+                <i class="fas fa-snowflake"></i> Больше снега
+            </button>
+            <button id="lightsBtn" class="btn">
+                <i class="fas fa-tree"></i> Мерцание ёлки
+            </button>
+        </div>
+        
+        <div class="hint">
+            <i class="fas fa-magic"></i> Нажми на кнопки для волшебства!
+        </div>
+        
+        <audio id="bgMusic" loop>
+            <source src="https://assets.mixkit.co/music/preview/mixkit-christmas-magic-315.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <footer>
+        <p>Создано с <i class="fas fa-heart"></i> для Насти | Made with <i class="fas fa-heart"></i> for Nastya</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
